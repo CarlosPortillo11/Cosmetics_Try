@@ -2,4 +2,110 @@
 @import '~tailwindcss/components';
 @import '~tailwindcss/utilities';
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@font-face{
+    font-family: 'Market-Deco';
+    src: url(/resources/fonts/MarketDeco.woff);
+    font-style: normal,thin;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Sacramento';
+    src: url(/resources/fonts/sacramento.regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Open-Sans';
+    src: url(/resources/fonts/OpenSans-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.font-Market-Deco{
+    font-family: 'Market-Deco', serif;
+}
+
+.font-Sacramento{
+    font-family: 'Sacramento', sans-serif;
+}
+
+.font-OpenSans{
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.hero-container
+{
+    width: auto;
+    height: 600px;
+    background: url(/resources/images/header.png);
+    background-size:  100% 600px;
+    background-repeat: no-repeat;
+}
+
+.about-us
+{
+    width: auto;
+    height: 450px;
+    background: url(/resources/images/about-image.jpg);
+    background-size:  100% 450px;
+    background-repeat: no-repeat;
+}
+
+.fragance{
+    width: 477px;
+    height: 460px;
+    background-image: url(/resources/images/fragancias.png);
+    background-size: 100% 460px;
+    cursor: pointer;
+}
+
+.material{
+    width: 477px;
+    height: 460px;
+    background-image: url(/resources/images/material.png);
+    background-size: 100% 460px;
+    cursor: pointer;
+}
+
+.chemists{
+    width: 477px;
+    height: 460px;
+    background-image: url(/resources/images/productos_quimicos.png);
+    background-size: 100% 460px;
+    cursor: pointer;
+}
+
+.discount-banner{
+    width: auto;
+    height: 490px;
+    background-image: url(/resources/images/discount_banner.jpg);
+    background-size: 100% 490px;
+}
+
+.prod-card{
+    height: 220px;
+    width: 370px;
+}
+
+.contact-us{
+    height: 650px;
+}
+
+.transition{
+    transition-delay: 0.1s;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+}
+
+.map
+{
+    height: 270px;
+    width: 470px;
+}
+
+.vertical-text{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
