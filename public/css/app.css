@@ -7855,6 +7855,16 @@ video {
   background-image: url(/resources/images/fragancias.png);
   background-size: 100% 460px;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.fragance:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 2;
 }
 
 .material {
@@ -7863,6 +7873,16 @@ video {
   background-image: url(/resources/images/material.png);
   background-size: 100% 460px;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.material:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 2;
 }
 
 .chemists {
@@ -7871,6 +7891,16 @@ video {
   background-image: url(/resources/images/productos_quimicos.png);
   background-size: 100% 460px;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.chemists:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 2;
 }
 
 .discount-banner {
@@ -7909,6 +7939,75 @@ video {
           writing-mode: vertical-lr;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.logo {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.comingtext {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.comingtext:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.comingmenu {
+  border-width: 1px;
+  border: transparent;
+  border-style: solid;
+}
+
+.comingmenu:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  border-width: 2px;
+  border-color: #088DA5;
+  border-style: solid;
+}
+
+.cominginput {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.cominginput:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cominginput:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.comingcards {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.comingcards:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (min-width: 640px) {

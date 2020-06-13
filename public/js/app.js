@@ -116,8 +116,8 @@ var gretting = 'hello';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\Prueba_CodeCastle\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\Prueba_CodeCastle\resources\scss\app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\Programación Web\Prueba_CodeCastle\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\kirup\OneDrive\Escritorio\Programación Web\Prueba_CodeCastle\resources\scss\app.scss */"./resources/scss/app.scss");
 
 
 /***/ })
